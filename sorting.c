@@ -179,6 +179,9 @@ int main()
         case 'Q':
         quickSort(a,0,n-1);
         break;
+        case 'M':
+        mergeSort(a,0,n-1);
+        break;
 
     }
   for(int i=0;i<n;i++){
