@@ -170,6 +170,9 @@ int main()
         case 'I':
         insertionSort(a,n);
         break;
+        case 'S':
+        selectionSort(a,n);
+        break;
 
     }
   for(int i=0;i<n;i++){
